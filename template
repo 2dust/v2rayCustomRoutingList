@@ -1,0 +1,6 @@
+baidu.com,
+regexp:\.goo.*\.com$,
+domain:v2ray.com,
+full:v2ray.com,
+127.0.0.1,
+10.0.0.0/8,
