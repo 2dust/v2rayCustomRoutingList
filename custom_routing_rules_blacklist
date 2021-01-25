@@ -1,0 +1,94 @@
+[{
+		"type": "field",
+		"port": "",
+		"outboundTag": "block",
+		"domain": [
+			"geosite:category-ads-all",
+			"geosite:win-spy"
+		]
+	},
+	{
+		"type": "field",
+		"port": "",
+		"outboundTag": "proxy",
+		"domain": [
+			"geosite:tld-!cn",
+			"geosite:gfw",
+			"geosite:greatfire"
+		]
+	},
+	{
+		"type": "field",
+		"port": "",
+		"outboundTag": "proxy",
+		"ip": [
+			"109.239.140.0/24",
+			"149.154.160.0/22",
+			"149.154.164.0/22",
+			"149.154.168.0/22",
+			"149.154.172.0/22",
+			"67.198.55.0/24",
+			"91.108.12.0/22",
+			"91.108.16.0/22",
+			"91.108.20.0/22",
+			"91.108.20.0/23",
+			"91.108.4.0/22",
+			"91.108.56.0/22",
+			"91.108.56.0/23",
+			"91.108.8.0/22",
+			"95.161.64.0/20",
+			"95.161.84.0/23",
+			"2001:67c:4e8::/48",
+			"2001:b28:f23c::/48",
+			"2001:b28:f23d::/48",
+			"2001:b28:f23f::/48",
+			"2001:b28:f242::/48"
+		]
+	},
+	{
+		"type": "field",
+		"port": "",
+		"outboundTag": "proxy",
+		"ip": [
+			"geoip:ae",
+			"geoip:au",
+			"geoip:br",
+			"geoip:ca",
+			"geoip:de",
+			"geoip:dk",
+			"geoip:es",
+			"geoip:fi",
+			"geoip:fr",
+			"geoip:gb",
+			"geoip:gr",
+			"geoip:hk",
+			"geoip:id",
+			"geoip:il",
+			"geoip:in",
+			"geoip:iq",
+			"geoip:ir",
+			"geoip:it",
+			"geoip:jp",
+			"geoip:kr",
+			"geoip:mo",
+			"geoip:my",
+			"geoip:nl",
+			"geoip:no",
+			"geoip:nz",
+			"geoip:ph",
+			"geoip:ru",
+			"geoip:sa",
+			"geoip:sg",
+			"geoip:th",
+			"geoip:tr",
+			"geoip:tw",
+			"geoip:us",
+			"geoip:vn"
+		]
+	},
+	{
+		"type": "field",
+		"port": "0-65535",
+		"outboundTag": "direct"
+	}
+]
