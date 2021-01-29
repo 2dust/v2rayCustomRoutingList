@@ -1,4 +1,12 @@
-[{
+[
+{
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:example.com",
+      "domain:example2.com"
+    ]
+  },
+  {
 		"type": "field",
 		"port": "",
 		"outboundTag": "block",
