@@ -18,8 +18,8 @@
     "outboundTag": "direct",
     "domain": [
       "geosite:private",
-      "geosite:apple-cn",
-      "geosite:google-cn",
+      "geosite:apple@cn",
+      "geosite:google@cn",
       "geosite:tld-cn"
     ]
   },
