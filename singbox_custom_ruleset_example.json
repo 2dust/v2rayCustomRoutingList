@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "geosite-category-ads-all",
+    "type": "local",
+    "format": "binary",
+    "path": "C:\\v2rayN\\srss\\geosite-category-ads-all.srs"
+  },
+  {
+    "tag": "geosite-cn",
+    "type": "remote",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+    "download_detour": "proxy"
+  },
+  {
+    "tag": "geoip-cn",
+    "type": "remote",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+    "download_detour": "proxy"
+  }
+]
