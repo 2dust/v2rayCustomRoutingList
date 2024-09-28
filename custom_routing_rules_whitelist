@@ -1,45 +1,58 @@
 [
   {
-    "outboundTag": "direct",
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [],
     "domain": [
-      "domain:example.com",
-      "domain:example2.com"
-    ]
+      "geosite:geolocation-!cn",
+      "github.com",
+      "githubassets.com",
+      "githubusercontent.com",
+      "store.steampowered.com"
+    ],
+    "protocol": []
   },
   {
     "type": "field",
     "outboundTag": "block",
     "domain": [
-      "geosite:category-ads-all"
+      "mousegesturesapi.com",
+      "cf-se.com",
+      "geosite:category-ads-all",
+      "googleads.g.doubleclick.net",
+      "adservice.google.com"
     ]
   },
   {
     "type": "field",
-    "outboundTag": "direct",
-    "domain": [
-      "geosite:private",
-      "geosite:apple@cn",
-      "geosite:google@cn",
-      "geosite:tld-cn"
-    ]
-  },
-  {
-    "type": "field",
-    "outboundTag": "proxy",
-    "domain": [
-      "geosite:geolocation-!cn"
-    ]
-  },
-  {
-    "type": "field",
+    "port": "",
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
-      "geoip:cn"
+      "geoip:cn",
     ],
     "domain": [
-      "geosite:cn"
-    ]
+      "bitwarden.com",
+      "bitwarden.net",
+      "gravatar.com",
+      "gstatic.com",
+      "letsencrypt.org",
+      "adblockplus.org",
+      "safesugar.net",    
+      "geosite:private",
+      "geosite:cn",
+      "geosite:adobe",
+      "geosite:adobe-activation",
+      "geosite:microsoft",
+      "geosite:msn",
+      "geosite:apple",
+      "geosite:private",
+      "geosite:apple-cn",
+      "geosite:google-cn",
+      "geosite:tld-cn",
+      "geosite:category-games@cn"
+    ],
+    "protocol": []
   },
   {
     "type": "field",
